@@ -10,7 +10,9 @@ import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var btnEnter: Button
+//decla
+
+private lateinit var btnEnter: Button
     private lateinit var btnExit: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {

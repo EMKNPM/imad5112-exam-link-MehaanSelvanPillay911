@@ -11,7 +11,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class HomeActivity : AppCompatActivity() {
-
+    //decla
     private lateinit var tvList: TextView
     private lateinit var edtGear: EditText
     private lateinit var btnDark: Button
@@ -23,6 +23,7 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        //type
         tvList = findViewById(R.id.tvList)
         edtGear = findViewById(R.id.edtGear)
         btnDark = findViewById(R.id.btnDark)
