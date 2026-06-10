@@ -68,10 +68,3 @@ private fun saveGeardata(){
 
 
 
-//ensure that all
-if(!allDataEntered()){
-    Toast.makeText(this,"Please enter all the data for the 7 days before calculating",
-        Toast.LENGTH_SHORT
-    ).show()
-    return
-}
