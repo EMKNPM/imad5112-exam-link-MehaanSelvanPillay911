@@ -6,4 +6,5 @@
     <string name="camp_site">Camp Site</string>
     <string name="gear_check">Gear Check</string>
     <string name="add_gear">Add Gear</string>
+    <string name="dark_mode">Dark Mode</string>
 </resources>
