@@ -19,10 +19,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //type
-        btnStart = findViewById(R.id.btnEnter)
+        btnEnter = findViewById(R.id.btnEnter)
         btnExit = findViewById(R.id.btnExit)
 
-        btnStart.setOnClickListener{
+        btnEnter.setOnClickListener{
             val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
         }
