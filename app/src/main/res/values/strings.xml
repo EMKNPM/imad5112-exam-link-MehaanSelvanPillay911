@@ -2,4 +2,5 @@
     <string name="app_name">IMAD EXAM</string>
     <string name="campsite_commander">Campsite Commander</string>
     <string name="enter">Enter</string>
+    <string name="exit">Exit</string>
 </resources>
