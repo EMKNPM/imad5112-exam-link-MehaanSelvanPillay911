@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -22,13 +23,21 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        tvList = findViewById(R.id.tvList)
+        edtGear = findViewById(R.id.edtGear)
+        btnDark = findViewById(R.id.btnDark)
+        btnAdd = findViewById(R.id.btnAdd)
+        btnGear = findViewById(R.id.btnGear)
+
+        // saves gear data
+        btnGear.setOnClickListener {
+            saveGeardata()
+        }
 
 
 
 
 
-
-        
         enableEdgeToEdge()
         setContentView(R.layout.activity_home)
 
@@ -43,4 +52,17 @@ class HomeActivity : AppCompatActivity() {
             insets
         }
     }
+}
+
+
+
+
+
+//ensure that all
+if(!allDataEntered()){
+    Toast.makeText(this,"Please enter all the data for the 7 days before calculating",
+        Toast.LENGTH_SHORT
+    ).show()
+
+    return
 }
