@@ -12,6 +12,7 @@ class DetailView : AppCompatActivity() {
     //decla
     private lateinit var btnReturn: Button
     private lateinit var tvGearList: TextView
+    private lateinit var tvResult: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,6 +20,8 @@ class DetailView : AppCompatActivity() {
         //type
         btnReturn = findViewById(R.id.btnReturn)
         tvGearList = findViewById(R.id.tvGearList)
+        tvResult = findViewById(R.id.tvResult)
+
 
         //Exits the app
         btnReturn.setOnClickListener {
