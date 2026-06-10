@@ -1,11 +1,9 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/92arv5Vv)
 Based on the code you provided, here is a professional `README.md` file for your Android project:
 
-# IMAD Exam App
+# ST10537135 IMAD EXAM
 
 ## Overview
-
-The **IMAD Exam App** is an Android application developed in Kotlin. The application provides a simple interface that allows users to navigate between screens, enter gear-related information, and view stored data.
 
 The project demonstrates:
 
@@ -119,30 +117,7 @@ The application includes validation to ensure:
 * Invalid entries are rejected.
 * Toast messages notify users when incorrect data is entered.
 
-Example:
 
-```kotlin
-Toast.makeText(
-    this,
-    "Please enter valid gear information",
-    Toast.LENGTH_SHORT
-).show()
-```
-
----
-
-## Installation
-
-1. Open Android Studio.
-2. Select **Open Existing Project**.
-3. Navigate to the project folder.
-4. Allow Gradle to sync.
-5. Run the application on:
-
-   * Android Emulator, or
-   * Physical Android Device.
-
----
 
 ## Future Improvements
 
@@ -155,10 +130,6 @@ Toast.makeText(
 
 ---
 
-## ST10537135
-
-**Student IMAD Examination Project**
-
-this message was made by AI(stated by ST10537135)
+## ST10537135 IMAD EXAM
 
 Developed using Kotlin and Android Studio as part of an Introduction to Mobile Application Development (IMAD) assessment project.
