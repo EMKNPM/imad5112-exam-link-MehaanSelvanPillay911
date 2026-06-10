@@ -37,7 +37,6 @@ class HomeActivity : AppCompatActivity() {
 
 
 
-
         enableEdgeToEdge()
         setContentView(R.layout.activity_home)
 
@@ -54,6 +53,16 @@ class HomeActivity : AppCompatActivity() {
     }
 }
 
+private fun saveGeardata(){
+
+
+    //Error handling to mae sure all input fields are completed
+    if(`Gear listing`.isEmpty()){
+        Toast.makeText(this,"Temperatures must be valid numbers",Toast.LENGTH_SHORT).show()
+        return
+    }
+
+}
 
 
 
